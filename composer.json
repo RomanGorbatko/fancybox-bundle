@@ -1,5 +1,5 @@
 {
-    "name":        "RomanGorbatko/fancybox-bundle",
+    "name":        "romangorbatko/fancybox-bundle",
     "type":        "symfony-bundle",
     "description": "jQuery FancyBox Bundle for Symfony2",
     "keywords":    ["jquery", "fancybox", "javascript", "symfony"],
