@@ -1,5 +1,5 @@
 {
-    "name":        "uran1980/fancybox-bundle",
+    "name":        "RomanGorbatko/fancybox-bundle",
     "type":        "symfony-bundle",
     "description": "jQuery FancyBox Bundle for Symfony2",
     "keywords":    ["jquery", "fancybox", "javascript", "symfony"],
@@ -7,18 +7,23 @@
     "license":     ["MIT", "GPLv2"],
     "authors":     [
         {
-            "name":     "Ivan Yakovlev",
-            "email":    "uran1980@gmail.com",
-            "homepage": "https://github.com/uran1980"
+            "name":     "Roman Gorbatko",
+            "email":    "romangorbatko@gmail.com",
+            "homepage": "https://github.com/RomanGorbatko"
         }
     ],
-    "require":     {
-        "symfony/framework-bundle": ">=2.1"
+    "require": {
+        "php": ">=5.3.0",
+    },
+    "require-dev": {
+        "symfony/framework-bundle": "~2.1",
+        "symfony/console": "~2.1",
+        "symfony/yaml": "~2.1",
     },
     "autoload":    {
         "psr-0": {
-            "Uran1980\\FancyBoxBundle": ""
+            "RomanGorbatko\\FancyBoxBundle": ""
         }
     },
-    "target-dir":  "Uran1980/FancyBoxBundle"
+    "target-dir":  "RomanGorbatko/FancyBoxBundle"
 }

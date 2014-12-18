@@ -15,7 +15,7 @@ fancyBox 2.1.4
 {
     "require": {
 		// ...
-        "uran1980/fancybox-bundle": "*"
+        "RomanGorbatko/fancybox-bundle": "*"
     }
 }
 ```
@@ -29,7 +29,7 @@ public function registerBundles()
 {
     $bundles = array(
         // ...
-        new Uran1980\FancyBoxBundle\Uran1980FancyBoxBundle(),
+        new RomanGorbatko\FancyBoxBundle\RomanGorbatkoFancyBoxBundle(),
         // ...
     );
 }
@@ -38,7 +38,7 @@ public function registerBundles()
 ### Download the bundle using Composer
 
 ``` bash
-$ php composer.phar update uran1980/fancybox-bundle
+$ php composer.phar update RomanGorbatko/fancybox-bundle
 ```
 
 ### Install assets
@@ -60,7 +60,7 @@ $ php app/console assets:install --symlink web
 Refer to the desired files in your HTML template, e.g.
 
 ``` html
-<script type="text/javascript" src="{{ asset('bundles/uran1980fancybox/js/fancybox/source/jquery.fancybox.pack.js') }}"></script>
+<script type="text/javascript" src="{{ asset('bundles/RomanGorbatkofancybox/js/fancybox/source/jquery.fancybox.pack.js') }}"></script>
 ```
 
 ## Licenses
